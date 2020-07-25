@@ -17,7 +17,8 @@ def GenerateJokes():
     e.insert(0,joke)
 
 def clear_joke():
-     e.delete(0,END)    
+     e.delete(0,END) 
+        
 button = Button(root, text="Click to LOL", padx=10, pady=5,command=GenerateJokes)
 button_clr=Button(root,text='Clear',padx=15,pady=4,command=clear_joke)
 button.place(x=400,y=45)
